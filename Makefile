@@ -3,3 +3,6 @@ conda_create:
 
 conda_update:
 	conda env update -f environment.yml --prune
+
+conda_remove:
+	conda remove --name es_tripadvisor_nyc --all

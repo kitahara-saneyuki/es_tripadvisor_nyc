@@ -5,3 +5,7 @@ dependencies:
   - python=3.10
   - elasticsearch
   - eland=8.12.1
+  - ipykernel
+  - pip
+  - pip:
+    - eland[pytorch]
